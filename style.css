@@ -13,6 +13,14 @@ body {
     flex-direction: column;
 }
 
+button {
+    background-color: #3882f6;
+    padding: 7px 20px 7px 20px;
+    border-radius: 10px;
+    border: solid #E5E7EB 1px;
+    color: #E5E7EB;
+}
+
 /* navbar */
 
 .navbar {
@@ -46,18 +54,31 @@ body {
 
 .hero {
     display: flex;
+    background-color: #1F2937;
+    padding-bottom: 50px;
+    color: #F9FAF8;
+}
+
+.hero-box {
+    margin-right: auto;
+    text-align: left;
+    max-width: 300px;
+    padding-left: 100px;
+}
+
+.hero-image {
+    margin-left: auto;
+    max-width: 300px;
+    padding-right: 100px;
 }
 
 /* content */
 
-#content {
-    align-items: center;
+.content {
+    display: flex;
+    flex-direction: row;
 }
 
-.content-wrapper img {
-    display: grid;
-    grid-template-rows: auto;
-}
 /* quote section */
 
 .quote {
