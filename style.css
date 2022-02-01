@@ -74,10 +74,11 @@ button {
 
 /* content */
 
-.content {
+.content-images {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
+
 
 /* quote section */
 
