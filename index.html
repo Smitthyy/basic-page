@@ -17,9 +17,9 @@
             </div>
 
             <div class="header-link">
-                <a href="#">About</a>
-                <a href="#">Shop</a>
-                <a href="#">Contact</a> 
+                <a href="#content-images">Content</a>
+                <a href="#quote">Quote</a>
+                <a href="#action">Sign Up</a> 
             </div>
 
         </nav>
@@ -42,7 +42,7 @@
     <div class="content-flex">
         
             <h3>Title text for content section.</h3>
-                <div class="content-images">
+                <div id="content-images">
 
                     <div class="image-container">
                         <img src="./resources/web200_ccexpress.jpeg">
@@ -58,7 +58,7 @@
                         <img src="./resources/web200_ccexpress.jpeg">
                         <p>this is an image</p>
                     </div>
-                    
+
                     <div class="image-container">
                         <img src="./resources/web200_ccexpress.jpeg">
                         <p>this is an image</p>
@@ -70,26 +70,29 @@
 
 <!-- quote section -->
 
-        <div class="quote">
-            <blockquote>
-                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-                <cite>Thor, God of Thunder</cite>
+        <div id="quote">
+            <blockquote class="quote-text">
+                <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <footer>- Thor, God of Thunder</footer>
             </blockquote>
         </div>
 
 <!-- call to action -->
 
-        <div class="action">
+        <div id="action">
             <div class="cta-wrapper">
-                <h2>Call to action! It's time!</h2>
-                <p>Sign up for our product by clicking that button right over there!</p>
+                <div class="cta-text">
+                    <h2>Call to action! It's time!</h2>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+
                 <button class="cta-button">Sign up</button>
             </div>
         </div>
 
 <!-- footer -->
 
-        <footer>
+        <footer class="page-footer">
             <p>Copyright &#169; The Odin Project 2022</p>
         </footer>
     
